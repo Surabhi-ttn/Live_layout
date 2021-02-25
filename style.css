@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffdc5a;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5vh 8vh;
+    height: 10%;
+  }
+  
+  img {
+    padding: 2vh 0;
+  }
+  
+  .inner-header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 2vh 0;
+    color: #847949;
+  }
+  
+  .inner-header {
+    display: flex;
+  }
+  
+  .inner-header li {
+    width: 100%;
+    white-space: nowrap;
+    padding: 1vh 2vh;
+  }
+  
+  .inner-header li:first-child {
+    border-right: 1px solid;
+  }
+
+.clr {
+    clear: both;
+}
+
+section .bg {
+    background: url('asset/background-image.png')
+    no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+}
+.content {
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background: #f3438c;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.form-wrapper {
+    background: white;
+    width: 50%;
+    height: 60%;
+    padding: 15px 25px;
+    margin: 5rem;
+}
+
+.form-wrapper h1{
+    text-align: center;
+}
+
+.form-wrapper h5 {
+    text-align: center;
+    color: #ea8d3c;
+    padding-bottom: 1rem;
+}
+
+.form-wrapper .my-form label{
+    display: block;
+}
+
+.form-wrapper .my-form input{
+    border: none;
+    border-top: black 1px solid;
+}
+
+.form-btn {
+    background: #1a8818;
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+}
+
+footer .profile{
+    background: #0061c4;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.reviews {
+    padding: 2rem;
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.profile .review-1{
+    padding: 2rem;
+}
+
+.profile .review-2{
+    padding: 2rem;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+}
+.author h4{
+    padding-top: 1.2rem;
+    padding-left: .5rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
